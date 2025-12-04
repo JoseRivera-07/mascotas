@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header class="hdr">
+        <h1 class="title">Portfolio</h1>
+        <nav class="navegador">
+            <ul class="list">
+                <button class="item"><a href="#abtm">About me</a></button>
+                <button class="item"><a href="#works">Projects</a></button>
+                <button class="item"><a href="#contact">Contact</a></button>
+                <button class="item"><a href="mascotas.html">Pets</a></button>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="abtm" class="yotas">
+        <h1 class="title_m">
+            ABOUT ME
+        </h1>
+        <article class="seccionsita">
+            <h1 class="subtitle"> Hi, I am</h1>
+            <img src="img-prueba.jpg" alt="">
+            <section class="contenido">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem aut laborum laudantium at itaque architecto dignissimos recusandae modi, illum similique ad reprehenderit, sed, autem nulla delectus adipisci necessitatibus magnam asperiores!</p>
+            </section>
+        </article>
+        <article class="seccionsitav2"></article>
+    </section>
+
+    <section id="works" class="proyecticos">
+        <h1 class="title-p">
+            Table of projects
+        </h1>
+        <table>
+            <tr>
+                <th>Nombre</th>
+                <th>Enlace</th>
+            </tr>
+            <tr>
+                <td>SolutionBash</td>
+                <td><a href="https://github.com/JoseRivera-07/solutionsBash">https://github.com/JoseRivera-07/solutionsBash</a></td>
+            </tr>
+            <tr>
+                <td>Domicilio python</td>
+                <td><a href="https://github.com/JoseRivera-07/domicilio-python">https://github.com/JoseRivera-07/domicilio-python</a></td>
+            </tr>
+            <tr>
+                <td>Genero y Edad</td>
+                <td><a href="https://github.com/JoseRivera-07/generoEdad">https://github.com/JoseRivera-07/generoEdad</a></td>
+            </tr>
+            <tr>
+                <td>Eje. Python lvl1</td>
+                <td><a href="https://github.com/JoseRivera-07/ejercicios-python-lvl1">https://github.com/JoseRivera-07/ejercicios-python-lvl1</a></td>
+            </tr>
+            <tr>
+                <td>Condicionales y loops</td>
+                <td><a href="https://github.com/JoseRivera-07/conditionals-loops">https://github.com/JoseRivera-07/conditionals-loops</a></td>
+            </tr>
+            <tr>
+                <td>Eco Ride: proyecto bicicleta</td>
+                <td><a href="https://github.com/JoseRivera-07/ecoride">https://github.com/JoseRivera-07/ecoride</a></td>
+            </tr>
+            <tr>
+                <td>Crudazo (proyecto en equipo)</td>
+                <td><a href="https://github.com/Zain-wave/Crudzaso_Games">https://github.com/Zain-wave/Crudzaso_Games</a></td>
+            </tr>
+            <tr>
+                <td>Estructuras de Datos en Python</td>
+                <td><a href="https://github.com/JoseRivera-07/estructuras-control">https://github.com/JoseRivera-07/estructuras-control</a></td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- ⭐ NUEVA SECCIÓN DE CONTACTO ⭐ -->
+    <section id="contact" class="contact">
+        <h1 class="title-contact">Contact Me</h1>
+
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="nombre">Name:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="You name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="correo">mail:</label>
+                <input type="email" id="correo" name="correo" placeholder="youremail@example.com" required>
+            </div>
+
+            <div class="form-group">
+                <label for="asunto">affair:</label>
+                <textarea id="asunto" name="asunto" placeholder="write your message..." required></textarea>
+            </div>
+
+            <button type="submit">send</button>
+        </form>
+    </section>
+
+</body>
+</html>
