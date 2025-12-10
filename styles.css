@@ -11,19 +11,25 @@ body{
     border-radius: 20px;
     font-family: Arial, Helvetica, sans-serif;
     background-color:#730202;
+    display: flex;
+    align-items: center;
+    
 }
 .title{
-    margin-top: 1%;
+    margin-top: 2%;
     position: relative;
     text-align: center;
     color: white;
     font-size: 50px;
+    left: 2%;
 }
 /* NAV */
 .navegador{
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+    left: 2%;
 }
 .list{
     display: flex;
@@ -54,15 +60,13 @@ a{
     margin-top: 1%;
     display: flex;
     align-items:center;
-    justify-content: right;
+    justify-content: center;
     gap: 5%;
-
-
 }
 .title_m{
     font-size: 40px;
-    position: absolute;
-    left: 20%;
+    position: relative;
+    left: -5%;
     color: white;
 
 }
@@ -86,14 +90,7 @@ a{
     text-align: center;
     font-size: 30px;
 }
-.contenido{
-    background-color:#A60303;
-    font-size: 20px;
-    border-radius: 5px;
-    position: relative;
-    width: 480px;
-    left: 2%;
-}
+
 p{
     font-size: 20px;
     text-align: center;
@@ -227,4 +224,34 @@ tr:hover {
 .contact-form button:hover {
     transform: scale(1.05);
     background-color: #e0d9c9;
+}
+
+.pets{
+    margin-top: 1% ;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #730202;
+    border-radius: 15px;
+    width: 98%;
+    height: auto;
+    position: relative;
+    gap: 2%;
+    padding: 20px;
+}
+
+.pet{
+    background-color: #D93644;
+    border-radius: 15px;
+    position: relative;
+    left: 1%;
+    margin-top: 1%;
+
+}
+
+.cont{
+    font-size: 20px;
+    border-radius: 5px;
+    width: 480px;
+    padding-bottom: 10%;
+    
 }
