@@ -35,6 +35,7 @@ body{
     display: flex;
     gap: 20px;
     list-style: none;
+    flex-wrap: wrap;
 
 }
 .item{
@@ -62,6 +63,8 @@ a{
     align-items:center;
     justify-content: center;
     gap: 5%;
+    flex-wrap: wrap;
+
 }
 .title_m{
     font-size: 40px;
@@ -101,6 +104,8 @@ img{
     left: 25%;
     width: 250px;
 }
+
+
 /* SECTION PROYECTOS */
 .proyecticos{
     background-color: #730202;
@@ -110,6 +115,7 @@ img{
     display: flex;
     justify-content: center; 
     align-items: center;
+    flex-wrap: wrap;
 
 
 }
@@ -171,11 +177,12 @@ tr:hover {
     background-color: #D93644;   /* Igual que .seccionsita */
     padding: 25px;
     border-radius: 10px;
-    width: 500px;
+    width: auto;
     margin: 0 auto;              /* Centra */
     display: flex;
     flex-direction: column;
     gap: 20px;
+
 }
 
 /* Estilo de cada grupo del formulario */
@@ -227,12 +234,13 @@ tr:hover {
 }
 
 .pets{
+    
     margin-top: 1% ;
     display: flex;
     flex-wrap: wrap;
     background-color: #730202;
     border-radius: 15px;
-    width: 98%;
+    width: auto;
     height: auto;
     position: relative;
     gap: 2%;
@@ -254,4 +262,26 @@ tr:hover {
     width: 480px;
     padding-bottom: 10%;
     
+}
+
+@media screen and (width <=768px) {
+    .p{
+        font-size: 1rem ;
+
+    }
+    .item{
+        width: 150px;
+        font-size: 1.5rem;
+    }
+    .proyecticos{
+        position: relative;
+        margin-top: 80px;
+    }
+    .cont{
+        font-size: 2rem;
+        border-radius: 5px;
+        width: 400px;
+        padding-bottom: 10%;
+    
+    }
 }
